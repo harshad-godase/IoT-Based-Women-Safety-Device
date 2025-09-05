@@ -13,7 +13,7 @@ SoftwareSerial gpsSerial(GPS_RX_PIN, GPS_TX_PIN); // RX, TX
 TinyGPSPlus gps;
 
 // Array to store phone numbers
-String phoneNumbers[] = {"+918390235627", "+918767731822","+919075733851","+919309755269","+918767681712"}; // Add more phone numbers as needed
+String phoneNumbers[] = {"+91******", "+91xxxxxxx","+91xxxxxxxxx"}; // Add more phone numbers as needed
 
 void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
